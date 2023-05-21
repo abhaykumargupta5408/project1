@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+.bannar{
+   width: 100%;
+    height: 130vh;
+    background-position: center;
+    background-size:cover;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
+    ,url(/project1/assets/bgc.png);
+}
+.navigation{
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 100px;
+}
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color:  #ffc233;
+    text-transform: ;
+}
+.order{
+    width: 120px;
+    padding: 12px 0;
+    text-align: center;
+    margin: ;
+    font-weight: bold;
+    background-color: #ff501f;
+    color: #ffffff;
+    border: none;
+}
+.content {
+    width: 100%;
+   
+   position: absolute;
+   top: 70px;
+    text-align: center;
+    color:  #ffc233;
+    font-family: "Dela Gothic One", cursive;
+}
+.content h1{
+    font-weight: 700;
+    font-size: 104px;
+    margin-top: 80px;
+    line-height: 80px;
+    }
+.our-menu-button{
+
+    width: 100%;
+    position: absolute;
+    top: 70%;
+   
+    text-align: center;
+    
+}
+.our-menu{
+    width: 190px;
+    height: 50px;
+    padding: 5px 0px;
+    text-align: center;
+    margin: ;
+    font-weight: bold;
+    background-color: #ff501f;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    font-family: "red rose";
+}
+.scrool-logo{
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    text-align: right;
+    
+
+
+}
+.scrool {
+    width: 130px;
+    margin: 30px;
+    
+}
